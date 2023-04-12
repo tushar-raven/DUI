@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic User Interface</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>Information</button>
+        <div class="dropdown-menu">Dropdown Content</div>
+      </div>
+      <a href="#" class="link">Pricing</a>
+      <button class="link" data-dropdown-button>Login</button>
+    </div>
+
+    <nav class="navbar">
+      <div class="brand-title">Brand Logo</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="slider-container">
+      <div class="left-arrow">
+        <img
+          src="/arrow_back_ios_FILL0_wght400_GRAD0_opsz48.svg"
+          alt="left-arrow"
+        />
+      </div>
+      <div class="carousel">
+        <div class="slider">
+          <div class="image" id="1">
+            <img src="/images/banana.jpg" alt="banana" />
+          </div>
+          <div class="image" id="2">
+            <img src="/images/leaves.jpg" alt="leaves" />
+          </div>
+          <div class="image" id="3">
+            <img src="/images/pencils.jpg" alt="pencils" />
+          </div>
+          <div class="image" id="4">
+            <img src="/images/wild.jpg" alt="wild" />
+          </div>
+        </div>
+      </div>
+      <div class="right-arrow">
+        <img
+          src="/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.svg"
+          alt="right-arrow"
+        />
+      </div>
+    </div>
+
+    <div class="controls">
+      <ul>
+        <li id="1"></li>
+        <li id="2"></li>
+        <li id="3"></li>
+        <li id="4"></li>
+      </ul>
+    </div>
+  </body>
+</html>
